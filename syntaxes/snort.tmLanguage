@@ -13,6 +13,49 @@
 	<string>source.snort</string>
 	<key>patterns</key>
     <array>
+        <!-- Rule Header -->
+        <!-- action -->
+        <dict>
+            <key>action</key>
+            <string>keyword.other.action.snort</string>
+            <key>match</key>
+            <string></string>
+        </dict>
+        <!-- Rule Options -->
+        <!-- msg -->
+        <dict>
+            <key>name</key>
+            <string>keyword.other.msg.snort</string>
+            <key>match</key>
+            <string>msg:\s?\"<string>
+        </dict>
+        <!-- content -->
+        <dict>
+            <key>name</key>
+            <string>keyword.other.content.snort</string>
+            <key>match</key>
+            <string>content:\s?\"<string>
+        </dict>
+        <!-- General -->
+        <!-- Strings -->
+        <!-- Double Quoted -->
+        <dict>
+            <key>name</key>
+            <string>string.quoted.double.snort</string>
+            <key>match</key>
+            <!-- "example" -->
+            <string>\".*\"</string>
+        </dict>
+        <!-- Hex -->
+        <dict>
+            <key>contentName</key>
+            <string>string.hex.snort</string>
+            <key>begin</key>
+            <!-- "|de ad be ef|" -->
+            <string>\"|</string>
+            <key>end</key>
+            <string>|\"</string>
+        </dict>
     </array>
 	<key>smartTypingPairs</key>
 	<array>
