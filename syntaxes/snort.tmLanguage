@@ -73,6 +73,13 @@
             <key>end</key>
             <string>|\"</string>
         </dict>
+        <!-- Not -->
+        <dict>
+            <key>name</key>
+            <string>keyword.other.logical.not.snort</string>
+            <key>match</key>
+            <string>\!</string>
+        </dict>
     </array>
 	<key>smartTypingPairs</key>
 	<array>
