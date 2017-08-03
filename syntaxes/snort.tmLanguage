@@ -16,14 +16,6 @@
         <!-- Rule Header -->
         <!-- Rule Options -->
         <dict>
-            <key>contentName</key>
-            <string>meta.rule.options.snort</string>
-            <key>begin</key>
-            <string>\(</string>
-            <key>end</key>
-            <string>\)</string>
-        </dict>
-        <dict>
             <key>name</key>
             <string>keyword.other.option.snort</string>
             <key>match</key>
@@ -35,18 +27,8 @@
             <key>name</key>
             <string>string.quoted.double.snort</string>
             <key>match</key>
-            <!-- "example" -->
             <string>\".*\"</string>
         </dict>
-        <!-- Hex Strings -->
-        <!-- <dict>
-            <key>contentName</key>
-            <string>string.hex.snort</string>
-            <key>begin</key>
-            <string>\"|</string>
-            <key>end</key>
-            <string>|\"</string>
-        </dict> -->
 		<!-- Variables : Any word that starts with '$' -->
         <dict>
 			<key>name</key>
