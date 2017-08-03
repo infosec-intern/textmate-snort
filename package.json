@@ -1,0 +1,26 @@
+{
+    "name": "snort",
+    "displayName": "Snort IDS",
+    "description": "Syntax highlighting and snippets support for Snort NIDS rules",
+    "version": "0.0.1",
+    "publisher": "infosec-intern",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "snort",
+            "aliases": ["Snort", "snort"],
+            "extensions": [".rules"],
+            "configuration": "./snort.configuration.json"
+        }],
+        "grammars": [{
+            "language": "snort",
+            "scopeName": "source.yara",
+            "path": "./syntaxes/snort.tmLanguage"
+        }]
+    }
+}
