@@ -54,8 +54,7 @@
             <string>content:\s?\"<string>
         </dict>
         <!-- General -->
-        <!-- Strings -->
-        <!-- Double Quoted -->
+        <!-- Double Quoted Strings -->
         <dict>
             <key>name</key>
             <string>string.quoted.double.snort</string>
@@ -63,7 +62,7 @@
             <!-- "example" -->
             <string>\".*\"</string>
         </dict>
-        <!-- Hex -->
+        <!-- Hex Strings -->
         <dict>
             <key>contentName</key>
             <string>string.hex.snort</string>
@@ -80,6 +79,14 @@
             <key>match</key>
             <string>\!</string>
         </dict>
+		<!-- Variables : Any word that starts with '$' -->
+        <dict>
+			<key>name</key>
+			<string>variable.parameter.source.snort</string>
+			<key>match</key>
+            <!-- $HOME_NET -->
+			<string>(\$)[A-Z0-9_]*</string>
+		</dict>
     </array>
 	<key>smartTypingPairs</key>
 	<array>
