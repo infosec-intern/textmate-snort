@@ -14,6 +14,12 @@
 	<key>patterns</key>
     <array>
         <!-- Rule Header -->
+        <dict>
+            <key>name</key>
+            <string></string>
+            <key></key>
+            <string></string>
+        </dict>
         <!-- Rule Options -->
         <dict>
             <key>name</key>
@@ -32,10 +38,17 @@
 		<!-- Variables : Any word that starts with '$' -->
         <dict>
 			<key>name</key>
-			<string>variable.parameter.source.snort</string>
+			<string>variable.parameter.snort</string>
 			<key>match</key>
-			<string>(\$)[A-Z0-9_]*</string>
+            <!-- variables must be all caps and numbers -->
+			<string>(\$)[A-Z0-9_]+\b</string>
 		</dict>
+        <dict>
+            <key>name</key>
+            <string>invalid.illegal.variable.snort</string>
+            <key>match</key>
+            <!-- variables with lowercase letters in them aren't allowed -->
+            <string>(\$)[A-Z0-9_]*[a-z]*[A-Z0-9_]*\b</string>
     </array>
 	<key>smartTypingPairs</key>
 	<array>
