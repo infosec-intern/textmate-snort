@@ -14,10 +14,53 @@
 	<key>patterns</key>
     <array>
         <!-- Rule Header -->
+        <!-- Action -->
+        <dict>
+            <key>name</key>
+            <string>variable.language.action</string>
+            <key>match</key>
+            <string>\b(alert|log|pass|activate|dynamic|drop|reject|sdrop)\b</string>
+        </dict>
+        <!-- Protocol -->
         <dict>
             <key>name</key>
             <string></string>
-            <key></key>
+            <key>match</key>
+            <string>\b(tcp|udp|icmp|ip)\b</string>
+        </dict>
+        <!-- IP Addresses -->
+        <dict>
+            <key>name</key>
+            <string></string>
+            <key>match</key>
+            <string></string>
+        </dict>
+        <!-- Port Numbers -->
+        <dict>
+            <key>name</key>
+            <string></string>
+            <key>match</key>
+            <string></string>
+        </dict>
+        <!-- Direction -->
+        <dict>
+            <key>name</key>
+            <string></string>
+            <key>match</key>
+            <string></string>
+        </dict>
+        <!-- Activate -->
+        <dict>
+            <key>name</key>
+            <string></string>
+            <key>match</key>
+            <string></string>
+        </dict>
+        <!-- Dynamic -->
+        <dict>
+            <key>name</key>
+            <string></string>
+            <key>match</key>
             <string></string>
         </dict>
         <!-- Rule Options -->
