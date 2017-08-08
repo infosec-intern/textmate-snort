@@ -81,7 +81,7 @@
             <key>name</key>
             <string>storage.type.option.snort</string>
             <key>match</key>
-            <string>(msg|content|reference|classtype|priority|sid|rev|nocase|offset|pcre):</string>
+            <string>(msg|content|reference|classtype|priority|sid|rev|nocase|offset|pcre|flow)</string>
         </dict>
         <!-- General -->
         <!-- Double Quoted Strings -->
