@@ -105,6 +105,7 @@
             <key>match</key>
             <!-- variables with lowercase letters in them aren't allowed -->
             <string>(\$)[A-Z0-9_]*[a-z]*[A-Z0-9_]*\b</string>
+        </dict>
     </array>
 	<key>smartTypingPairs</key>
 	<array>
