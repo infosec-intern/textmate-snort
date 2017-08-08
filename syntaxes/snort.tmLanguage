@@ -88,14 +88,6 @@
             <string>(msg|content|reference|classtype|priority|sid|rev|nocase|offset|pcre|flow)</string>
         </dict>
         <!-- General -->
-        <!-- Double Quoted Strings -->
-        <dict>
-            <key>name</key>
-            <string>string.quoted.double.snort</string>
-            <key>match</key>
-            <!-- freaking Unicode... -->
-            <string>(\".*\"|\”.*\”)</string>
-        </dict>
         <!-- Hex Strings -->
         <dict>
             <key>name</key>
@@ -108,7 +100,19 @@
             <key>contentName</key>
             <string>string.regex.snort</string>
             <key>begin</key>
-            <string>pcre:(\"|\”)</string>
+            <string>pcre:\s?(\"|\”)</string>
+            <key>end</key>
+            <string>(\"|\”);</string>
+        </dict>
+        <!-- Double Quoted Strings -->
+        <dict>
+            <key>name</key>
+            <string>string.quoted.double.snort</string>
+             <!-- <key>match</key> -->
+            <!-- freaking Unicode... -->
+             <!-- <string>(\".*\"|\”.*\”)</string> -->
+             <key>begin</key>
+            <string>(\"|\”)</string>
             <key>end</key>
             <string>(\"|\”);</string>
         </dict>
