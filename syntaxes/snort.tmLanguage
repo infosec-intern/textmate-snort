@@ -60,7 +60,7 @@
             <key>name</key>
             <string>keyword.other.direction.snort</string>
             <key>match</key>
-            <string></string>
+            <string>(-\>|\<\>)</string>
         </dict>
         <!-- Activate -->
         <dict>
