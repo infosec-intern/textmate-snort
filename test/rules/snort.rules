@@ -4,3 +4,4 @@ alert tcp ![192.168.0.0/24,10.1.1.0/24] any -> \
     msg:"external mountd access";)
 alert tcp $EXTERNAL_NET any -> 192.168.3.0/24 80 (msg:"Sample alert"; classtype: web-application-activity;reference:url,http://www.vorant.com/advisories/20060405.html;sid:2000123; rev:1;)
 alert tcp any any - any 80 (msg:"port 80 connection!!!";flow: stateless; rev:1;)
+alert tcp any any -> any any (msg:”Sample alert”;)
