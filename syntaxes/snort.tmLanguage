@@ -49,7 +49,7 @@
             <key>name</key>
             <string>support.constant.ports.snort</string>
             <key>match</key>
-            <string>(\b|:)(any|[0-9]{1,3}|10[0-2][0-4])(:|\b)</string>
+            <string>(\b|:)([0-9]{1,3}|10[0-2][0-4])(:|\b)</string>
         </dict>
         <!-- Direction -->
         <dict>
@@ -88,6 +88,13 @@
             <string>(msg|content|reference|classtype|priority|sid|rev|nocase|offset|pcre|flow)</string>
         </dict>
         <!-- General -->
+        <!-- Any -->
+         <dict>
+            <key>name</key>
+            <string>constant.language.any.snort</string>
+            <key>match</key>
+            <string>\bany\b</string>
+        </dict>
         <!-- Hex Strings -->
         <dict>
             <key>name</key>
