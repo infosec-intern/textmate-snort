@@ -33,7 +33,7 @@
             <key>name</key>
             <string></string>
             <key>match</key>
-            <string></string>
+            <string>([0-9]{1,3}\.){3}([0-9]{1,3}|0\/[0-9]{1,2})</string>
         </dict>
         <!-- Port Numbers -->
         <dict>
