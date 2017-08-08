@@ -91,6 +91,13 @@
             <key>match</key>
             <string>\".*\"</string>
         </dict>
+        <!-- Hex Strings -->
+        <dict>
+            <key>name</key>
+            <string>string.quoted.hex.snort</string>
+            <key>match</key>
+            <string>\"\|[a-z0-9]+\|\"</string>
+        </dict>
         <!-- Operators -->
         <dict>
             <key>name</key>
