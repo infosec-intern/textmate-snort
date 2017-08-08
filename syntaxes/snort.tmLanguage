@@ -101,7 +101,16 @@
             <key>name</key>
             <string>string.quoted.hex.snort</string>
             <key>match</key>
-            <string>\"\|[a-z0-9]+\|\"</string>
+            <string>(\"|\”)\|[a-z0-9]+\|(\"|\”)</string>
+        </dict>
+        <!-- Perl-compatible Regex -->
+        <dict>
+            <key>contentName</key>
+            <string>string.regex.snort</string>
+            <key>begin</key>
+            <string>pcre:(\"|\”)</string>
+            <key>end</key>
+            <string>(\"|\”);</string>
         </dict>
         <!-- Operators -->
         <dict>
@@ -123,7 +132,7 @@
             <string>invalid.illegal.variable.snort</string>
             <key>match</key>
             <!-- variables with lowercase letters in them aren't allowed -->
-            <string>(\$)[A-Z0-9_]*[a-z]*[A-Z0-9_]*\b</string>
+            <string>(\$)[A-Z0-9_]*[a-z]+[A-Z0-9_]*\b</string>
         </dict>
     </array>
 	<key>smartTypingPairs</key>
