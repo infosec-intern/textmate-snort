@@ -11,16 +11,25 @@
         "Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "snort",
-            "aliases": ["Snort", "snort"],
-            "extensions": [".rules"],
-            "configuration": "./snort.configuration.json"
-        }],
-        "grammars": [{
-            "language": "snort",
-            "scopeName": "source.yara",
-            "path": "./syntaxes/snort.tmLanguage"
-        }]
+        "languages": [
+            {
+                "id": "snort",
+                "aliases": [
+                    "Snort",
+                    "snort"
+                ],
+                "extensions": [
+                    ".rules"
+                ],
+                "configuration": "./snort.configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "snort",
+                "scopeName": "source.snort",
+                "path": "./syntaxes/snort.tmLanguage"
+            }
+        ]
     }
 }
