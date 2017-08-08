@@ -19,7 +19,7 @@
             <key>name</key>
             <string>keyword.other.action.snort</string>
             <key>match</key>
-            <string>\b(alert|log|pass|activate|dynamic|drop|reject|sdrop)\b</string>
+            <string>^(alert|log|pass|activate|dynamic|drop|reject|sdrop)\b</string>
         </dict>
         <!-- Protocol -->
         <dict>
@@ -89,7 +89,8 @@
             <key>name</key>
             <string>string.quoted.double.snort</string>
             <key>match</key>
-            <string>\".*\"</string>
+            <!-- freaking Unicode... -->
+            <string>(\".*\"|\”.*\”)</string>
         </dict>
         <!-- Hex Strings -->
         <dict>
