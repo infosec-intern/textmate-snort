@@ -17,21 +17,21 @@
         <!-- Action -->
         <dict>
             <key>name</key>
-            <string>keyword.other.action</string>
+            <string>keyword.other.action.snort</string>
             <key>match</key>
             <string>\b(alert|log|pass|activate|dynamic|drop|reject|sdrop)\b</string>
         </dict>
         <!-- Protocol -->
         <dict>
             <key>name</key>
-            <string>keyword.other.protocol</string>
+            <string>keyword.other.protocol.snort</string>
             <key>match</key>
             <string>\b(tcp|udp|icmp|ip)\b</string>
         </dict>
         <!-- IPv4 Addresses -->
         <dict>
             <key>name</key>
-            <string>keyword.other.ipaddress</string>
+            <string>keyword.other.ipaddress.snort</string>
             <key>match</key>
             <!-- pulled from http://blog.markhatton.co.uk/2011/03/15/regular-expressions-for-ip-addresses-cidr-ranges-and-hostnames/ -->
             <string>
@@ -41,7 +41,7 @@
         <!-- IPv4 CIDR Ranges -->
         <dict>
             <key>name</key>
-            <string>keyword.other.ipsubnet</string>
+            <string>keyword.other.ipsubnet.snort</string>
             <key>match</key>
             <!-- pulled from http://blog.markhatton.co.uk/2011/03/15/regular-expressions-for-ip-addresses-cidr-ranges-and-hostnames/ -->
             <string>
@@ -51,35 +51,35 @@
         <!-- Port Numbers -->
         <dict>
             <key>name</key>
-            <string>keyword.other.ports</string>
+            <string>keyword.other.ports.snort</string>
             <key>match</key>
             <string></string>
         </dict>
         <!-- Direction -->
         <dict>
             <key>name</key>
-            <string>keyword.other.direction</string>
+            <string>keyword.other.direction.snort</string>
             <key>match</key>
             <string></string>
         </dict>
         <!-- Activate -->
         <dict>
             <key>name</key>
-            <string>keyword.other.activate</string>
+            <string>keyword.other.activate.snort</string>
             <key>match</key>
             <string></string>
         </dict>
         <!-- Dynamic -->
         <dict>
             <key>name</key>
-            <string>keyword.other.dynamic</string>
+            <string>keyword.other.dynamic.snort</string>
             <key>match</key>
             <string></string>
         </dict>
         <!-- Rule Options -->
         <dict>
             <key>name</key>
-            <string>keyword.other.option.snort</string>
+            <string>storage.type.option.snort</string>
             <key>match</key>
             <string>(msg|content|reference|classtype|priority|sid|rev|nocase|offset|pcre):</string>
         </dict>
@@ -94,7 +94,7 @@
         <!-- Operators -->
         <dict>
             <key>name</key>
-            <string>keyword.operator.not</string>
+            <string>keyword.operator.not.snort</string>
             <key>match</key>
             <string>!</string>
         </dict>
