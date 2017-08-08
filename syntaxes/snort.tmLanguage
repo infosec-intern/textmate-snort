@@ -17,62 +17,62 @@
         <!-- Action -->
         <dict>
             <key>name</key>
-            <string>variable.other.action</string>
+            <string>keyword.other.action</string>
             <key>match</key>
             <string>\b(alert|log|pass|activate|dynamic|drop|reject|sdrop)\b</string>
         </dict>
         <!-- Protocol -->
         <dict>
             <key>name</key>
-            <string>variable.other.protocol</string>
+            <string>keyword.other.protocol</string>
             <key>match</key>
             <string>\b(tcp|udp|icmp|ip)\b</string>
         </dict>
         <!-- IPv4 Addresses -->
         <dict>
             <key>name</key>
-            <string>variable.other.ipaddress</string>
+            <string>keyword.other.ipaddress</string>
             <key>match</key>
             <!-- pulled from http://blog.markhatton.co.uk/2011/03/15/regular-expressions-for-ip-addresses-cidr-ranges-and-hostnames/ -->
             <string>
-                (([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])
+                 (([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])
             </string>
         </dict>
         <!-- IPv4 CIDR Ranges -->
         <dict>
             <key>name</key>
-            <string>variable.other.ipsubnet</string>
+            <string>keyword.other.ipsubnet</string>
             <key>match</key>
             <!-- pulled from http://blog.markhatton.co.uk/2011/03/15/regular-expressions-for-ip-addresses-cidr-ranges-and-hostnames/ -->
             <string>
-                (([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])(\/([0-9]|[1-2][0-9]|3[0-2]))
+                 (([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])(\/([0-9]|[1-2][0-9]|3[0-2]))
             </string>
         </dict>
         <!-- Port Numbers -->
         <dict>
             <key>name</key>
-            <string>variable.other.ports</string>
+            <string>keyword.other.ports</string>
             <key>match</key>
             <string></string>
         </dict>
         <!-- Direction -->
         <dict>
             <key>name</key>
-            <string>variable.other.direction</string>
+            <string>keyword.other.direction</string>
             <key>match</key>
             <string></string>
         </dict>
         <!-- Activate -->
         <dict>
             <key>name</key>
-            <string>variable.other.activate</string>
+            <string>keyword.other.activate</string>
             <key>match</key>
             <string></string>
         </dict>
         <!-- Dynamic -->
         <dict>
             <key>name</key>
-            <string>variable.other.dynamic</string>
+            <string>keyword.other.dynamic</string>
             <key>match</key>
             <string></string>
         </dict>
@@ -90,6 +90,13 @@
             <string>string.quoted.double.snort</string>
             <key>match</key>
             <string>\".*\"</string>
+        </dict>
+        <!-- Operators -->
+        <dict>
+            <key>name</key>
+            <string>keyword.operator.not</string>
+            <key>match</key>
+            <string>!</string>
         </dict>
 		<!-- Variables : Any word that starts with '$' -->
         <dict>
