@@ -8,3 +8,7 @@ alert tcp any any -> any any (msg:”Sample alert”;)
 pass icmp $hOME_NET any -> any 443 (msg:"Illegal variable rule test";)
 alert tcp any any <> any 80 (msg:"MD5 Alert"; protected_content:"293C9EA246FF9985DC6F62A650F78986"; hash:md5; offset:0; length:4;)
 alert tcp any any <> any 80 (msg:"SHA256 Alert"; protected_content:"56D6F32151AD8474F40D7B939C2161EE2BBF10023F4AF1DBB3E13260EBDC6342"; hash:sha256; offset:0; length:4;)
+alert udp any any -> any 161 (msg:"Oversize SNMP Length"; \
+    asn1:oversize_length 10000, absolute_offset 0;)
+alert tcp any any -> any 80 (msg:"ASN1 Relative Foo"; content:"foo"; \
+    asn1:bitstring_overflow, relative_offset 0;)
