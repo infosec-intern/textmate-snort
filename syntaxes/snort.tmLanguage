@@ -33,7 +33,7 @@
             <key>name</key>
             <string>variable.parameter.ipaddress.snort</string>
             <key>match</key>
-            <string>(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])</string>
+            <string>(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\b</string>
         </dict>
         <!-- IPv4 CIDR Ranges -->
         <dict>
@@ -71,17 +71,26 @@
             <string></string>
         </dict>
         <!-- Rule Options -->
+        <!-- Payload Detection -->
         <dict>
             <key>name</key>
             <string>storage.type.option.payloaddetection.snort</string>
             <key>match</key>
             <string>\b(msg|(protected_)?content|reference|classtype|priority|sid|rev|nocase|offset|pcre|flow|hash|length|rawbytes|depth|distance|within|http_(client_body|(raw_)?cookie|(raw_)?header|method|(raw_)?uri|stat_(code|msg)|encode)|fast_pattern|uri(content|len)|isdataat|(pkt|file)_data|base64_(decode|data)|byte_(test|jump|extract|math)|ftpbounce|asn1|cvs|dce_(iface|opnum|stub_data)|sip_(method|stat_code|header|body)|gtp_(type|info|version)|ssl_(version|state))</string>
         </dict>
+        <!-- Non-payload Detection -->
         <dict>
             <key>name</key>
             <string>storage.type.option.nonpayloaddetection.snort</string>
             <key>match</key>
             <string>\b(fragoffset|ttl|tos|id|ipopts|fragbits|dsize|flags|flow(bits)?|seq|ack|window|itype|icode|icmp_(id|seq)|rpc|ip_proto|sameip)</string>
+        </dict>
+        <!-- Post-Detection -->
+        <dict>
+            <key>name</key>
+            <string>storage.type.option.postdetection.snort</string>
+            <key>match</key>
+            <string>\b(logto|session|re(sp|act|place)|react|tag|activate(s|d_by)|count|detection_filter)</string>
         </dict>
         <!-- General -->
         <!-- Special Term: Any -->

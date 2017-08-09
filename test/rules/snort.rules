@@ -13,3 +13,4 @@ alert udp any any -> any 161 (msg:"Oversize SNMP Length"; \
 alert tcp any any -> any 80 (msg:"ASN1 Relative Foo"; content:"foo"; \
     asn1:bitstring_overflow, relative_offset 0;)
 alert ip any any -> any any (msg:"First Fragment"; fragbits:M; fragoffset:0;)
+drop tcp 10.1.2.100 any > 10.1.1.100 22 ( msg:"SSH Brute Force Attempt";flow:established,to_server; content:"SSH"; nocase; offset:0; depth:4; detection_filter:track by_src, count 30, seconds 60; sid:1000001; rev:1;)
