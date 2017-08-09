@@ -91,7 +91,7 @@
         <!-- Any -->
          <dict>
             <key>name</key>
-            <string>constant.language.any.snort</string>
+            <string>support.constant.any.snort</string>
             <key>match</key>
             <string>\bany\b</string>
         </dict>
@@ -121,7 +121,7 @@
              <key>begin</key>
             <string>(\"|\”)</string>
             <key>end</key>
-            <string>(\"|\”);</string>
+            <string>(\"|\”)</string>
         </dict>
         <!-- Operators -->
         <dict>
