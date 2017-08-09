@@ -78,19 +78,12 @@
             <string>(msg|content|reference|classtype|priority|sid|rev|nocase|offset|pcre|flow)</string>
         </dict>
         <!-- General -->
-        <!-- Any -->
+        <!-- Special Term: Any -->
          <dict>
             <key>name</key>
             <string>support.constant.any.snort</string>
             <key>match</key>
             <string>\bany\b</string>
-        </dict>
-        <!-- Hex Strings -->
-        <dict>
-            <key>name</key>
-            <string>string.quoted.hex.snort</string>
-            <key>match</key>
-            <string>(\"|\”)\|[a-z0-9]+\|(\"|\”)</string>
         </dict>
         <!-- Perl-compatible Regex -->
         <dict>
