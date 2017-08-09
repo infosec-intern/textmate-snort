@@ -12,3 +12,4 @@ alert udp any any -> any 161 (msg:"Oversize SNMP Length"; \
     asn1:oversize_length 10000, absolute_offset 0;)
 alert tcp any any -> any 80 (msg:"ASN1 Relative Foo"; content:"foo"; \
     asn1:bitstring_overflow, relative_offset 0;)
+alert ip any any -> any any (msg:"First Fragment"; fragbits:M; fragoffset:0;)

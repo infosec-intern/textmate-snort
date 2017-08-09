@@ -22,8 +22,7 @@ Initial release of textmate-snort
 
 ### Citations
 * Researched Snort using and pulled rules from:
-    * [Snort Overview](http://manual-snort-org.s3-website-us-east-1.amazonaws.com/node28.html)
-    * [Payload Detection Rule Options](http://manual-snort-org.s3-website-us-east-1.amazonaws.com/node32.html)
+    * [Snort Overview](http://manual-snort-org.s3-website-us-east-1.amazonaws.com/)
     * [EZ Snort Rules](http://www.vorant.com/files/EZ_Snort_Rules.pdf)
     * [O'Reilly's Snort Cookbook](http://commons.oreilly.com/wiki/index.php/Snort_Cookbook/Rules_and_Signatures#How_to_Build_Rules)
 * Got some help understanding wtf TextMate is from:
