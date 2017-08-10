@@ -56,20 +56,6 @@
             <key>match</key>
             <string>(-\>|\<\>)</string>
         </dict>
-        <!-- Activate -->
-        <dict>
-            <key>name</key>
-            <string>keyword.other.activate.snort</string>
-            <key>match</key>
-            <string></string>
-        </dict>
-        <!-- Dynamic -->
-        <dict>
-            <key>name</key>
-            <string>keyword.other.dynamic.snort</string>
-            <key>match</key>
-            <string></string>
-        </dict>
         <!-- Rule Options -->
         <!-- Payload Detection -->
         <dict>
