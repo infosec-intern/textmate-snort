@@ -2,6 +2,9 @@
 
 Language colorizer for Snort NIDS rules
 
+Screenshot:
+![09 Aug 2017](./images/09082017.png)
+
 ## Requirements
 
 Visual Studio Code 1.0.0+ is required to use this language colorizer.
