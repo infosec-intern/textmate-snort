@@ -1,8 +1,8 @@
 {
     "name": "snort",
-    "displayName": "Snort IDS",
+    "displayName": "Snort",
     "description": "Syntax highlighting and snippets support for Snort NIDS rules",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "publisher": "infosec-intern",
     "engines": {
         "vscode": "^1.0.0"
@@ -19,7 +19,8 @@
                     "snort"
                 ],
                 "extensions": [
-                    ".rules"
+                    ".rules",
+                    ".snort"
                 ],
                 "configuration": "./snort.configuration.json"
             }
