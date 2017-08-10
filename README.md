@@ -1,27 +1,22 @@
-# snort README
+# Snort Rules Support for Visual Studio Code
 
-Language colorizer for Snort NIDS rules
+Language colorizer for Snort NIDS/NIPS rules
 
-Screenshot:
 ![09 Aug 2017](./images/09082017.png)
 
-## Requirements
-
-Visual Studio Code 1.0.0+ is required to use this language colorizer.
+#### Please Note:
+##### I don't work for Cisco nor am I related to Cisco/Sourcefire/Snort in any official capacity
 
 ## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 0.0.1
-
-This version
 
 ### 1.0.0
 
 Initial release of textmate-snort
 
 -----------------------------------------------------------------------------------------------------------
+
+## Problems?
+If you encounter an issue with the syntax, feel free to create an issue or pull request!
 
 ### Citations
 * Researched Snort using and pulled rules from:

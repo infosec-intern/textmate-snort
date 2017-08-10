@@ -1,15 +1,34 @@
 {
     "name": "snort",
     "displayName": "Snort",
-    "description": "Syntax highlighting and snippets support for Snort NIDS rules",
-    "version": "1.0.0",
+    "description": "Syntax highlighting for Snort rules",
+    "homepage": "https://github.com/infosec-intern/textmate-snort/blob/master/README.md",
+    "license": "SEE LICENSE IN LICENSE.md",
     "publisher": "infosec-intern",
+    "version": "1.0.0",
     "engines": {
         "vscode": "^1.0.0"
     },
     "categories": [
         "Languages"
     ],
+    "keywords": [
+        "snort",
+        "ids",
+        "pattern",
+        "security"
+    ],
+    "galleryBanner": {
+        "color": "B00029",
+        "theme": "dark"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/infosec-intern/textmate-snort"
+    },
+    "bugs": {
+        "url": "https://github.com/infosec-intern/textmate-snort/issues"
+    },
     "contributes": {
         "languages": [
             {
@@ -22,14 +41,14 @@
                     ".rules",
                     ".snort"
                 ],
-                "configuration": "./snort.configuration.json"
+                "configuration": "snort.configuration.json"
             }
         ],
         "grammars": [
             {
                 "language": "snort",
                 "scopeName": "source.snort",
-                "path": "./syntaxes/snort.tmLanguage"
+                "path": "syntaxes/snort.tmLanguage"
             }
         ]
     }
