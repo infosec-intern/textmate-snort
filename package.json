@@ -5,7 +5,7 @@
     "homepage": "https://github.com/infosec-intern/textmate-snort/blob/master/README.md",
     "license": "SEE LICENSE IN LICENSE.md",
     "publisher": "infosec-intern",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "engines": {
         "vscode": "^1.0.0"
     },
