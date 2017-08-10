@@ -4,6 +4,7 @@
     "description": "Syntax highlighting for Snort rules",
     "homepage": "https://github.com/infosec-intern/textmate-snort/blob/master/README.md",
     "license": "SEE LICENSE IN LICENSE.md",
+    "icon": "images/logo.png",
     "publisher": "infosec-intern",
     "version": "1.0.1",
     "engines": {
