@@ -6,7 +6,7 @@
     "license": "SEE LICENSE IN LICENSE.md",
     "icon": "images/logo.png",
     "publisher": "infosec-intern",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "engines": {
         "vscode": "^1.0.0"
     },
