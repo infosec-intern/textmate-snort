@@ -62,7 +62,7 @@
             <key>name</key>
             <string>storage.type.option.general.snort</string>
             <key>match</key>
-            <string>\b(msg|reference|(g|s)id|rev|classtype|priority|metadata)</string>
+            <string>(msg|reference|(g|s)id|rev|classtype|priority|metadata|appid):</string>
         </dict>
         <!-- Payload Detection -->
         <dict>
