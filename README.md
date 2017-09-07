@@ -8,10 +8,7 @@ Language colorizer for Snort NIDS/NIPS rules
 ##### I don't work for Cisco nor am I related to Cisco/Sourcefire/Snort in any official capacity
 
 ## Release Notes
-
-### 1.0.0
-
-Initial release of textmate-snort
+See CHANGELOG
 
 -----------------------------------------------------------------------------------------------------------
 
