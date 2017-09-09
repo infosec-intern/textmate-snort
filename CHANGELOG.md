@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.1.3] 2017-09-09
+* Nothing's different from 1.0.3
+* Had a bug where VSCode thinks current version is 1.1.0. Bumping Minor version to update marketplace extension
+
 ## [1.0.3] 2017-09-05
 * Added `appid` keyword and test
 * Created this changelog
