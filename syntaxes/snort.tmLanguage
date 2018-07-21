@@ -54,7 +54,7 @@
             <key>name</key>
             <string>keyword.other.direction.snort</string>
             <key>match</key>
-            <string>(-\>|\<\>)</string>
+            <string>(-\&gt;|\&lt;\&gt;)</string>
         </dict>
         <!-- Rule Options -->
         <!-- General -->
@@ -154,8 +154,8 @@
 			<string>]</string>
 		</array>
 		<array>
-			<string><</string>
-			<string>></string>
+			<string>&lt;</string>
+			<string>&gt;</string>
 		</array>
 		<array>
 			<string>/*</string>
@@ -181,8 +181,8 @@
 			<string>]</string>
 		</array>
 		<array>
-			<string><</string>
-			<string>></string>
+			<string>&lt;</string>
+			<string>&gt;</string>
 		</array>
 	</array>
 </dict>
