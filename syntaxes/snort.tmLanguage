@@ -135,55 +135,5 @@
             <string>(\$)[A-Z0-9_]*[a-z]+[A-Z0-9_]*\b</string>
         </dict>
     </array>
-	<key>smartTypingPairs</key>
-	<array>
-		<array>
-			<string>"</string>
-			<string>"</string>
-		</array>
-		<array>
-			<string>(</string>
-			<string>)</string>
-		</array>
-		<array>
-			<string>{</string>
-			<string>}</string>
-		</array>
-		<array>
-			<string>[</string>
-			<string>]</string>
-		</array>
-		<array>
-			<string>&lt;</string>
-			<string>&gt;</string>
-		</array>
-		<array>
-			<string>/*</string>
-			<string>*/</string>
-		</array>
-	</array>
-	<key>highlightPairs</key>
-	<array>
-		<array>
-			<string>"</string>
-			<string>"</string>
-		</array>
-		<array>
-			<string>(</string>
-			<string>)</string>
-		</array>
-		<array>
-			<string>{</string>
-			<string>}</string>
-		</array>
-		<array>
-			<string>[</string>
-			<string>]</string>
-		</array>
-		<array>
-			<string>&lt;</string>
-			<string>&gt;</string>
-		</array>
-	</array>
 </dict>
 </plist>
