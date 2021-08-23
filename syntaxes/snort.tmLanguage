@@ -134,6 +134,12 @@
             <!-- variables with lowercase letters in them aren't allowed -->
             <string>(\$)[A-Z0-9_]*[a-z]+[A-Z0-9_]*\b</string>
         </dict>
+        <dict>
+            <key>name</key>
+            <string>comment.line.single.snort</string>
+            <key>match</key>
+            <string>#.*\n</string>
+        </dict>
     </array>
 	<key>smartTypingPairs</key>
 	<array>
