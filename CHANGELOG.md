@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.1.5] 2021-08-23
+* Added syntax for single-line comments
+
 ## [1.1.4] 2018-07-20
 * Merged XML validation fix from @wesinator
 
@@ -23,3 +26,7 @@
 * Initial Release
 * Organized keywords into a General/Miscellaneous category
 * Added all rule options
+
+
+[1.1.5]: https://github.com/infosec-intern/textmate-snort/compare/v1.1.4...v1.1.5
+[1.1.4]: https://github.com/infosec-intern/textmate-snort/compare/v1.1.3...v1.1.4
