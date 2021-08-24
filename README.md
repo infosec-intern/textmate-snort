@@ -16,6 +16,8 @@ See CHANGELOG
 If you encounter an issue with the syntax, feel free to create an issue or pull request!
 
 ### Citations
+* Other Snort-related extensions
+    * [Snort3 Test Explorer](https://marketplace.visualstudio.com/items?itemName=diptopandit.snort3-test-adapter) - looks pretty cool, though I haven't tried it myself
 * Researched Snort using and pulled rules from:
     * [Snort Overview](http://manual-snort-org.s3-website-us-east-1.amazonaws.com/)
     * [EZ Snort Rules](http://www.vorant.com/files/EZ_Snort_Rules.pdf)
